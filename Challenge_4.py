@@ -1,9 +1,6 @@
-
 # coding: utf-8
 
 # In[21]:
-
-
 import keras
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation
@@ -16,7 +13,6 @@ import os
 from keras.layers import Conv2D, MaxPooling2D, Flatten
 from keras import backend as K
 import numpy as np
-
 
 # In[22]:
 
