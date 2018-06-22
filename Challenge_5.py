@@ -10,9 +10,7 @@ import flask
 import io
 from keras.models import load_model
 
-
 import cv2
-
 app = Flask(__name__)
 
 path = "my_model.h5"
