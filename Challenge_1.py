@@ -1,29 +1,13 @@
-
 # coding: utf-8
-
 # In[10]:
-
-
 get_ipython().system(' /anaconda/envs/py35/bin/python -m pip freeze')
 get_ipython().system(' /anaconda/envs/py35/bin/python -m pip --version')
-
-
 # In[11]:
-
-
 import sys
 sys.version
-
-
 # In[12]:
-
-
 get_ipython().system(' /anaconda/envs/py35/bin/python -m pip install --yes numpy')
-
-
 # In[21]:
-
-
 import requests 
 
 headers = dict()
