@@ -1,5 +1,4 @@
 %matplotlib inline 
-
 from matplotlib.pyplot import imshow
 from PIL import Image
 import numpy as np
@@ -10,7 +9,6 @@ size = 128, 128
 
 rootdir = "/home/team3user/gear_images/*/*"
 for filename in glob.iglob(rootdir, recursive=True):
-#    print(filename)    
     im = Image.open(filename)
     im.thumbnail(size)
     layer = Image.new('RGB', (128, 128), (0, 0, 0))
