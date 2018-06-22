@@ -1,19 +1,11 @@
-
 # coding: utf-8
-
 # In[180]:
-
-
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 from matplotlib.pyplot import imshow
-
 from PIL import Image
-
-
 # In[181]:
-
 
 file_path = "/home/team3user/new_images/hardshell_jackets/10116634x1072858_zm.jpeg";
 new_file_path = "/home/team3user/10116634x1072858_zm.png";
